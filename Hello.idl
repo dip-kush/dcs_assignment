@@ -1,0 +1,9 @@
+module HelloApp
+{
+  interface Hello
+  {
+    string getRecord(in string email);
+    string insertRecord(in string fn, in string ln, in string phn, in string email, in string city, in string state);
+    string deleteRecord(in string phn);
+  };
+};
